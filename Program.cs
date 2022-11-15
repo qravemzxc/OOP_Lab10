@@ -11,17 +11,16 @@ namespace Lab10
         public int yearOfExploitation;
         public int mileage;
 
-    
-
-        public Bus(string fio, int numberOfBus, int numberOfRoute, string brand, int yearOfExploitation)
+        public Bus()
         {
-            this.fio = fio;
-            this.numberOfBus = numberOfBus;
-            this.numberOfRoute = numberOfRoute;
-            this.brand = brand;
-            this.yearOfExploitation = yearOfExploitation;
-            mileage = 201;
+            fio = "Иванов Иван Иванович";
+            numberOfBus = 1;
+            numberOfRoute = 15;
+            brand = "audi";
+            yearOfExploitation = 1990;
+            mileage = 200;
         }
+
 
         public Bus(int numberOfBus, int numberOfRoute, string brand, int yearOfExploitation, int mileage)
         {
