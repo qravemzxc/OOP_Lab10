@@ -11,15 +11,7 @@ namespace Lab10
         public int yearOfExploitation;
         public int mileage;
 
-        public Bus()
-        {
-            fio = "Иванов Иван Иванович";
-            numberOfBus = 1;
-            numberOfRoute = 15;
-            brand = "audi";
-            yearOfExploitation = 1990;
-            mileage = 200;
-        }
+    
 
         public Bus(string fio, int numberOfBus, int numberOfRoute, string brand, int yearOfExploitation)
         {
